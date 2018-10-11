@@ -1,0 +1,14 @@
+type Theft {
+  make: String
+  model: String
+  colour: String
+  license: String
+  vin: String
+  features: [String]
+  security: [String]
+}
+
+type Query {
+  theft(id: Int!): Theft!
+  thefts: [Theft!]!
+}

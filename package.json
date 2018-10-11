@@ -1,0 +1,21 @@
+{
+  "name": "mototheft-express",
+  "version": "0.1.0",
+  "description": "Theft database and API for mototheft app",
+  "main": "index.js",
+  "author": "Craig Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.16.2",
+    "merge-graphql-schemas": "^1.5.7"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node index.ts"
+  }
+}
